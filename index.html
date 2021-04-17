@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>HANDGESTUREAPP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6twheuOpfGGCx_h3VZMqBULwZpDwh4O9LcQ&usqp=CAU">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+    <body>
+     <div class="container">
+  
+    <center>
+<h3 class="btn btn-info heading">GESTURE IDENTIFICATION APP
+<br>
+<span>👍</span>
+<span>👌</span>
+<span>✌</span>
+    <span>👏</span>
+</h3>
+      <br><br>
+
+      <p style="font-size: 22px;">IT IDENTIFIES THE FOLLOWING
+      	<br>
+   <img style="height: 50 px; width: 50px;" src="e0eb2fad7a622670ad44fe34fc40511a.gif">
+   <img style="height: 50 px; width: 50px;"  src="391906020_THUMBS_UP_400px.gif">
+   <img style="height: 50 px; width: 50px;"  src="source.gif">
+      </p>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+	      <label>Capture Image </label>
+<div id="camera"></div>
+        <br><br>
+<button onclick="snap()" class="btn btn-success">CHESSE!</button>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        
+<h5 class="btn btn-default">prediction</h5>
+   <P class="emotion" id="emo"></P> 
+   <p class="emoticon" id="emoji"></p>    
+   <br>
+      
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+	      <label>Snapshot - </label>
+        <div id="result"></div>
+        <br><br>
+<button onclick="id()" class="btn btn-success">Identify SIGN</button>
+      </div>
+    </center>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+<div style="text-align: right;">
+
+</div>
+        <script src="main.js"></script>
+    </body>
+</html>
+
+
+
